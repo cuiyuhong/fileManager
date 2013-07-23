@@ -1,5 +1,5 @@
 //
-//  ISTAppDelegate.h
+//  FileManagerViewController.h
 //  fileManager
 //
 //  Created by cyh on 13-4-24.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ISTAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface FileManagerViewController : UITableViewController
+@property (nonatomic) NSString *directory;
 @end

@@ -17,7 +17,7 @@
 		1DB4EFC71727E1110082AE06 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB4EFC61727E1110082AE06 /* Default@2x.png */; };
 		1DB4EFC91727E1110082AE06 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB4EFC81727E1110082AE06 /* Default-568h@2x.png */; };
 		1DB4EFCC1727E1110082AE06 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DB4EFCA1727E1110082AE06 /* MainStoryboard.storyboard */; };
-		1DB4EFCF1727E1120082AE06 /* ISTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB4EFCE1727E1120082AE06 /* ISTViewController.m */; };
+		1DB4EFDA1727E3D50082AE06 /* FileManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB4EFD91727E3D50082AE06 /* FileManagerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +35,8 @@
 		1DB4EFC61727E1110082AE06 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1DB4EFC81727E1110082AE06 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1DB4EFCB1727E1110082AE06 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		1DB4EFCD1727E1110082AE06 /* ISTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISTViewController.h; sourceTree = "<group>"; };
-		1DB4EFCE1727E1120082AE06 /* ISTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISTViewController.m; sourceTree = "<group>"; };
+		1DB4EFD81727E3D50082AE06 /* FileManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileManagerViewController.h; path = ../FileManagerViewController.h; sourceTree = "<group>"; };
+		1DB4EFD91727E3D50082AE06 /* FileManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileManagerViewController.m; path = ../FileManagerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +83,11 @@
 		1DB4EFB81727E1110082AE06 /* fileManager */ = {
 			isa = PBXGroup;
 			children = (
+				1DB4EFD81727E3D50082AE06 /* FileManagerViewController.h */,
+				1DB4EFD91727E3D50082AE06 /* FileManagerViewController.m */,
 				1DB4EFC11727E1110082AE06 /* ISTAppDelegate.h */,
 				1DB4EFC21727E1110082AE06 /* ISTAppDelegate.m */,
 				1DB4EFCA1727E1110082AE06 /* MainStoryboard.storyboard */,
-				1DB4EFCD1727E1110082AE06 /* ISTViewController.h */,
-				1DB4EFCE1727E1120082AE06 /* ISTViewController.m */,
 				1DB4EFB91727E1110082AE06 /* Supporting Files */,
 			);
 			path = fileManager;
@@ -176,7 +176,7 @@
 			files = (
 				1DB4EFBF1727E1110082AE06 /* main.m in Sources */,
 				1DB4EFC31727E1110082AE06 /* ISTAppDelegate.m in Sources */,
-				1DB4EFCF1727E1120082AE06 /* ISTViewController.m in Sources */,
+				1DB4EFDA1727E3D50082AE06 /* FileManagerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
